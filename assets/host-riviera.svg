@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-labelledby="title desc">
+  <title id="title">KŌMØ Riviera host portrait illustration</title><desc id="desc">An abstract editorial portrait against a Mediterranean coastal horizon.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d9d0bd"/><stop offset=".5" stop-color="#9eb7aa"/><stop offset="1" stop-color="#234941"/></linearGradient>
+    <linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173a35"/><stop offset="1" stop-color="#315f55"/></linearGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <circle cx="676" cy="210" r="148" fill="#f0d69d" opacity=".84"/>
+  <path d="M0 689c189-51 355-46 487 12 145 64 278 60 413 10v389H0z" fill="#37685e" opacity=".64"/>
+  <path d="M0 767c154-45 332-39 487 14 171 58 271 58 413 9v310H0z" fill="#1d453d" opacity=".79"/>
+  <g transform="translate(136 151)">
+    <ellipse cx="304" cy="880" rx="321" ry="58" fill="#153631" opacity=".22"/>
+    <path d="M179 263c-39-46-34-132 18-185 55-55 152-56 207-1 51 51 57 137 18 188l-18 25H197z" fill="#a96f58"/>
+    <path d="M193 209c12-101 72-146 144-142 82 5 121 61 112 154-40-35-75-55-140-49-41 3-76 17-116 37z" fill="#2d312e"/>
+    <circle cx="233" cy="199" r="8" fill="#26312d"/><circle cx="354" cy="199" r="8" fill="#26312d"/>
+    <path d="M258 255c25 14 57 14 83-2" fill="none" stroke="#714f43" stroke-width="6" stroke-linecap="round"/>
+    <path d="M253 292c17 21 80 24 102 0l12 121H239z" fill="#a96f58"/>
+    <path d="M71 886c16-272 51-411 187-485 58 22 113 22 167 0 147 76 196 226 216 485z" fill="url(#jacket)"/>
+    <path d="M261 408l83 477M419 408l-78 477" fill="none" stroke="#d9d6c9" stroke-width="10"/>
+    <path d="M270 408l72 108 73-108-44-49h-56z" fill="#eff0e8"/>
+    <rect x="397" y="576" width="158" height="213" rx="11" fill="#e3e6dc"/>
+    <rect x="410" y="591" width="132" height="178" rx="5" fill="#315d53"/>
+    <path d="M429 640h95M429 676h64M429 712h82" stroke="#e7d59d" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <text x="60" y="1032" fill="#eff0e8" font-family="monospace" font-size="13" letter-spacing="3">KŌMØ RIVIERA / LONGEVITY IN MOTION</text>
+</svg>
