@@ -440,6 +440,21 @@ h1 em, h2 em { color: var(--sand); font-style: italic; }
 
 .price-note { margin: 17px 0 0; color: #7c8e87; font-size: 10px; line-height: 1.55; }
 
+
+/* KŌMØ experience bridge */
+.ecosystem-band { color: var(--white); background: #285149; }
+.ecosystem-inner { display: grid; grid-template-columns: minmax(0, .92fr) minmax(430px, 1.08fr); gap: clamp(45px, 7vw, 106px); align-items: center; padding-top: 63px; padding-bottom: 63px; }
+.ecosystem-copy h2 { max-width: 590px; margin: 0; font: 500 clamp(35px, 3.7vw, 54px)/1.03 var(--serif); letter-spacing: -.05em; }
+.ecosystem-copy > p:not(.eyebrow) { max-width: 520px; margin: 19px 0 24px; color: rgba(255,255,255,.75); font-size: 13px; line-height: 1.68; }
+.ecosystem-path { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid rgba(255,255,255,.2); border-bottom: 1px solid rgba(255,255,255,.2); }
+.ecosystem-path article { min-height: 151px; display: flex; flex-direction: column; justify-content: center; gap: 9px; padding: 18px 17px; border-right: 1px solid rgba(255,255,255,.2); }
+.ecosystem-path article:first-child { padding-left: 0; }
+.ecosystem-path article:last-child { border-right: 0; }
+.ecosystem-path span { color: var(--sand-soft); font: 500 10px var(--mono); }
+.ecosystem-path h3 { margin: 0; color: var(--white); font: 500 23px/1 var(--serif); letter-spacing: -.035em; }
+.ecosystem-path p { margin: 0; color: rgba(255,255,255,.69); font-size: 11px; line-height: 1.52; }
+
+
 /* Host */
 .host-strip { color: var(--white); background: #2d514a; }
 
@@ -710,4 +725,17 @@ h1 em, h2 em { color: var(--sand); font-style: italic; }
   *,
   *::before,
   *::after { transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
+}
+
+@media (max-width: 900px) {
+  .ecosystem-inner { grid-template-columns: 1fr; gap: 33px; }
+}
+
+@media (max-width: 670px) {
+  .ecosystem-inner { padding-top: 44px; padding-bottom: 45px; }
+  .ecosystem-copy h2 { font-size: clamp(35px, 11vw, 49px); }
+  .ecosystem-path { grid-template-columns: 1fr; }
+  .ecosystem-path article,
+  .ecosystem-path article:first-child { min-height: 0; padding: 16px 0; border-right: 0; border-bottom: 1px solid rgba(255,255,255,.2); }
+  .ecosystem-path article:last-child { border-bottom: 0; }
 }
