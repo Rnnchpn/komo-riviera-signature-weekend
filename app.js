@@ -86,7 +86,7 @@
     setStatus("Sending your confirmation email…");
 
     try {
-      const response = await fetch("/.netlify/functions/subscribe", {
+      const response = await fetch("/api/subscribe", {
         method: "POST",
         headers: { "Content-Type": "application/json", "Accept": "application/json" },
         body: JSON.stringify(payload)
