@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 980" role="img" aria-labelledby="title desc">
+  <title id="title">Riviera artist studio</title><desc id="desc">An abstract warm studio with canvas, sun and Mediterranean gesture.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9d2a4"/><stop offset="1" stop-color="#bd785c"/></linearGradient>
+    <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#faf2df"/><stop offset="1" stop-color="#e4cc9c"/></linearGradient>
+    <radialGradient id="sun"><stop stop-color="#f6e5b3"/><stop offset="1" stop-color="#efbf70"/></radialGradient>
+  </defs>
+  <rect width="1200" height="980" fill="url(#wall)"/>
+  <circle cx="935" cy="179" r="155" fill="url(#sun)" opacity=".96"/>
+  <path d="M0 742c211-71 399-62 586 10 208 80 396 72 614 8v220H0z" fill="#315a50"/>
+  <path d="M0 817c248-67 452-29 635 31 186 61 370 52 565-7v139H0z" fill="#1b3e38"/>
+  <rect x="146" y="200" width="465" height="489" rx="4" fill="#9e6a55"/>
+  <rect x="166" y="218" width="425" height="451" fill="url(#canvas)"/>
+  <path d="M207 599c92-170 174-258 302-281 63-11 90-54 73-114" fill="none" stroke="#335d51" stroke-width="34" stroke-linecap="round"/>
+  <path d="M191 337c131 11 172 57 206 157 23 66 88 96 164 74" fill="none" stroke="#c06f54" stroke-width="47" stroke-linecap="round"/>
+  <path d="M272 261c76 101 151 140 261 148" fill="none" stroke="#e5ae62" stroke-width="19" stroke-linecap="round"/>
+  <circle cx="447" cy="510" r="49" fill="#e9c174"/>
+  <path d="M173 712h415l-83 206H257z" fill="#30574d"/>
+  <path d="M132 902h497" stroke="#e7decd" stroke-width="15" stroke-linecap="round"/>
+  <g transform="translate(719 423)">
+    <ellipse cx="184" cy="403" rx="196" ry="26" fill="#173a35" opacity=".2"/>
+    <path d="M51 365c13-162 38-252 109-252s94 90 106 252z" fill="#3c6b5e"/>
+    <path d="M93 365c8-128 18-196 68-196s64 68 72 196z" fill="#e3d8bc"/>
+    <path d="M109 165c39 25 75 25 106 0" fill="none" stroke="#bd765c" stroke-width="20" stroke-linecap="round"/>
+    <rect x="21" y="362" width="278" height="31" rx="15" fill="#264d45"/>
+  </g>
+  <g transform="translate(701 731)">
+    <rect x="0" y="0" width="358" height="142" rx="22" fill="#e8ddc4"/>
+    <circle cx="56" cy="69" r="33" fill="#c17759"/>
+    <path d="M116 45h196M116 72h128M116 99h168" stroke="#3b655a" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <text x="70" y="90" fill="#21463d" font-family="monospace" font-size="17" letter-spacing="4">GESTURE / BALANCE / LIGHT</text>
+</svg>
