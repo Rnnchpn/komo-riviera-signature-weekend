@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://komo-riviera-signature-weekend.netlify.app/sitemap.xml
+Sitemap: https://experience.komolongevity.com/sitemap.xml
