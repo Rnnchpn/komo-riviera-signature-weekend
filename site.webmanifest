@@ -1,0 +1,12 @@
+{
+  "name": "KŌMØ Riviera — Signature Weekend",
+  "short_name": "KŌMØ Riviera",
+  "description": "A Cannes weekend for longevity in motion.",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#fbfaf5",
+  "theme_color": "#133a35",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
