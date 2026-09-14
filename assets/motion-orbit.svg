@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract motion pathways</title><desc id="desc">Flowing lines and measured points representing motion assessment.</desc>
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#183f39"/><stop offset="1" stop-color="#6f998b"/></linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ead7a9"/><stop offset="1" stop-color="#acd3c1"/></linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="900" height="1000" fill="url(#ground)"/>
+  <circle cx="690" cy="153" r="210" fill="#d6c18f" opacity=".19" filter="url(#soft)"/>
+  <circle cx="188" cy="802" r="210" fill="#86b39f" opacity=".22" filter="url(#soft)"/>
+  <g fill="none" stroke="url(#line)" stroke-linecap="round">
+    <path d="M97 748C187 555 504 592 559 390c33-118-69-186-122-238" stroke-width="3"/>
+    <path d="M166 848C203 701 367 661 515 565c142-91 154-218 91-336" stroke-width="2" opacity=".66"/>
+    <path d="M119 643c90-127 284-90 337-263 35-115-6-212-100-274" stroke-width="1.5" opacity=".52"/>
+    <path d="M333 914c-23-197 201-262 272-420 63-143-36-256-93-318" stroke-width="4" opacity=".85"/>
+    <path d="M207 428c100 11 173 93 299 47 116-42 143-157 149-259" stroke-width="2" opacity=".52"/>
+  </g>
+  <g fill="#ead7a9">
+    <circle cx="97" cy="748" r="10"/><circle cx="559" cy="390" r="11"/><circle cx="437" cy="152" r="8"/>
+    <circle cx="166" cy="848" r="7"/><circle cx="515" cy="565" r="9"/><circle cx="606" cy="229" r="8"/>
+    <circle cx="333" cy="914" r="10"/><circle cx="605" cy="494" r="9"/>
+  </g>
+  <g fill="#d7eee0">
+    <circle cx="207" cy="428" r="7"/><circle cx="506" cy="475" r="9"/><circle cx="655" cy="216" r="7"/>
+  </g>
+  <g transform="translate(86 83)">
+    <rect width="144" height="42" rx="21" fill="#e8e5d8" opacity=".96"/>
+    <circle cx="21" cy="21" r="6" fill="#bb9052"/>
+    <path d="M41 16h67M41 26h43" stroke="#21463e" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="86" y="959" fill="#e7eee7" font-family="monospace" font-size="14" letter-spacing="3">MOTION / OBSERVE / CONTINUE</text>
+</svg>
