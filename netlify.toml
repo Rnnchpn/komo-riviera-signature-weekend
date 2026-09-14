@@ -28,3 +28,13 @@
   from = "/apply"
   to = "/#apply"
   status = 302
+
+[template]
+  [template.environment]
+    BREVO_API_KEY = "Brevo API key with contact and transactional-email permission"
+    BREVO_LIST_ID = "Numeric Brevo list ID for Signature Weekend invitations"
+    BREVO_DOI_TEMPLATE_ID = "Numeric Brevo double-opt-in template ID"
+    SITE_URL = "Final public site URL, without trailing slash"
+    ALLOWED_ORIGINS = "Final public site URL, without trailing slash"
+    TEAM_EMAIL = "Optional: team inbox for new request notifications"
+    BREVO_SENDER_EMAIL = "Optional: verified Brevo sender email"
