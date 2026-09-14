@@ -2,6 +2,8 @@
 
 Standalone invitation site for the KŌMØ Riviera Signature Weekend in Cannes.
 
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Rnnchpn/komo-riviera-signature-weekend&fullConfiguration=true)
+
 It is intentionally independent from the main KŌMØ website, while linking back to the wider KŌMØ ecosystem and KŌMØ Pulse.
 
 ## What is included
