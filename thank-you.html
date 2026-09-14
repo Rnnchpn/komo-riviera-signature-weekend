@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#133a35">
+  <title>Confirm your email — KŌMØ Riviera</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .confirmation { min-height: 100vh; display:grid; place-items:center; padding:32px 0; color:var(--white); background:radial-gradient(circle at 72% 18%,rgba(214,180,109,.33),transparent 30%),linear-gradient(135deg,#193f39,#0c2925); }
+    .confirmation-card { max-width:670px; padding:58px; text-align:center; border:1px solid rgba(255,255,255,.17); border-radius:19px; background:rgba(255,255,255,.06); box-shadow:0 25px 70px rgba(0,0,0,.18); }
+    .confirmation-card .brand { justify-content:center; margin-bottom:66px; }
+    .confirmation-card h1 { margin:0 0 19px; font:500 clamp(43px,6vw,66px)/1.02 var(--serif); letter-spacing:-.055em; }
+    .confirmation-card h1 em { color:#d8e5d5; font-style:italic; }
+    .confirmation-card p { max-width:470px; margin:0 auto 27px; color:rgba(255,255,255,.76); font-size:14px; line-height:1.72; }
+    .confirmation-icon { width:57px; height:57px; display:grid; place-items:center; margin:0 auto 26px; border:1px solid #e6cc98; border-radius:50%; color:#e6cc98; font-size:26px; }
+    @media(max-width:560px){.confirmation-card{padding:36px 22px}.confirmation-card .brand{margin-bottom:45px}}
+  </style>
+</head>
+<body>
+  <main class="confirmation">
+    <div class="confirmation-card">
+      <a class="brand" href="index.html"><span>KŌMØ</span><small>Riviera</small></a>
+      <div class="confirmation-icon">✓</div>
+      <p class="eyebrow light">One last step</p>
+      <h1>Please confirm<br><em>your email.</em></h1>
+      <p>We have sent a confirmation email to the address you provided. Open it and confirm your request; the KŌMØ Riviera team will then be able to contact you with the next available edition.</p>
+      <p>If you cannot find it, please check your spam folder or write directly to <a href="mailto:contact@komolongevity.com" class="text-link text-link-light">contact@komolongevity.com</a>.</p>
+      <a class="button button-sand" href="index.html">Return to the weekend <span>←</span></a>
+    </div>
+  </main>
+</body>
+</html>
